@@ -124,4 +124,7 @@ cmp.setup {
       border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
     },
   },
+  experimental = {
+    ghost_text = true,
+  },
 }
