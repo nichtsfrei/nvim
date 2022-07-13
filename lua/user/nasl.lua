@@ -29,7 +29,7 @@ local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.nasl = {
   install_info = {
     url = "~/src/nichtsfrei/tree-sitter-nasl", -- local path or git repo
-    files = {"src/parser.c"},
+    files = {"src/parser.c", "src/scanner.c"},
     -- optional entries:
     branch = "main", -- default branch in case of git repo if different from master
     generate_requires_npm = false, -- if stand-alone parser without npm dependencies
