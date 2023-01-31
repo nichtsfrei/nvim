@@ -1,6 +1,7 @@
 vim.cmd [[
 try
-  colorscheme darkplus
+  set background=dark
+  colorscheme PaperColor
 catch /^Vim\%((\a\+)\)\=:E185/
   colorscheme default
   set background=dark
